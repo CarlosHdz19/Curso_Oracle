@@ -466,8 +466,7 @@ body {
 @media screen and (max-width: 536px) {
   .mainContainer {
     width: 95%; /*esto es el ancho*/
-    height: 933px;
-  }
+    height: 950px;  }
 
   .contentRight {
     margin-top: 115%;
@@ -565,6 +564,9 @@ body {
 }
 
 @media screen and (max-width: 424px) {
+  .mainContainer {
+  height: 970px;  }
+
   .nombre-page {
     margin-left: 20%;
   }
