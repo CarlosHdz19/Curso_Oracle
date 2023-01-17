@@ -623,9 +623,10 @@ body {
   }
   .contentRight {
     margin-top: 154%;
+    height: 44%;
   }
   #btn-copiar {
-    margin-top: 15%;
+    margin-top: 17%;
     margin-left: 30%;
   }
 
@@ -633,7 +634,7 @@ body {
     margin-left: 40px;
   }
   .autor {
-    margin-top: 238%;
+    margin-top: 252%;
   }
 }
 
@@ -651,7 +652,5 @@ body {
   .contentRight {
     margin-top: 160%;
   }
-  .autor {
-    margin-top: 250%;
-  }
+  
 }
