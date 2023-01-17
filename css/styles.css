@@ -508,7 +508,7 @@ body {
 @media screen and (max-width: 480px) {
   .contentRight {
     margin-top: 124%;
-    height: 50%;
+    height: 47%;
   }
 
   #btn-encriptar {
