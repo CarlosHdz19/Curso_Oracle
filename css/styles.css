@@ -23,7 +23,7 @@ body {
   background-color: #ffffffef;
   margin: auto;
   width: 80%; /*esto es el ancho*/
-  height: 700px; /*esto es el alto*/
+  height: 715px; /*esto es el alto*/
   padding: 5px; /*esto para que se separe*/
   border-radius: 20px;
   border: solid 2px;
@@ -466,7 +466,7 @@ body {
 @media screen and (max-width: 536px) {
   .mainContainer {
     width: 95%; /*esto es el ancho*/
-    height: 950px;  }
+    height: 965px;  }
 
   .contentRight {
     margin-top: 115%;
@@ -565,7 +565,7 @@ body {
 
 @media screen and (max-width: 424px) {
   .mainContainer {
-  height: 970px;  }
+  height: 980px;  }
 
   .nombre-page {
     margin-left: 20%;
@@ -634,7 +634,7 @@ body {
     margin-left: 40px;
   }
   .autor {
-    margin-top: 252%;
+    margin-top: 22%;
   }
 }
 
