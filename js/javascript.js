@@ -1,7 +1,7 @@
 function encriptar() {
   var texto = document.getElementById("cifrar-texto").value.toLowerCase();
 
-  if (texto == "") {
+  if (texto == ""  || texto ==" ") {
     document.getElementById("textError1").style.display = "inherit";
     document.getElementById("textError01").style.display = "inherit";
     document.getElementById("textResultado").style.display = "none";
@@ -27,7 +27,7 @@ function encriptar() {
 function desencriptar() {
   var texto = document.getElementById("cifrar-texto").value.toLowerCase();
 
-  if (texto == "") {
+  if (texto == "" || texto ==" ") {
     document.getElementById("textError1").style.display = "inherit";
     document.getElementById("textError01").style.display = "inherit";
     document.getElementById("textResultado").style.display = "none";
