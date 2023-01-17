@@ -466,10 +466,10 @@ body {
 @media screen and (max-width: 536px) {
   .mainContainer {
     width: 95%; /*esto es el ancho*/
-    height: 965px;  }
-
+    height: 950px;
+  }
   .contentRight {
-    margin-top: 115%;
+    margin-top: 117%;
     margin-left: 3%;
     height: 48%;
   }
@@ -484,7 +484,7 @@ body {
     margin-left: 34%;
   }
   .autor {
-    margin-top: 175%;
+    margin-top: 176%;
   }
 }
 
@@ -505,7 +505,7 @@ body {
   }
 }
 
-@media screen and (max-width: 477px) {
+@media screen and (max-width: 480px) {
   .contentRight {
     margin-top: 124%;
     height: 50%;
@@ -563,10 +563,8 @@ body {
   }
 }
 
-@media screen and (max-width: 424px) {
-  .mainContainer {
-  height: 980px;  }
-
+@media screen and (max-width: 426px) {
+  
   .nombre-page {
     margin-left: 20%;
   }
@@ -577,7 +575,7 @@ body {
     margin-top: 77%;
   }
   .contentRight {
-    margin-top: 140%;
+    margin-top: 142%;
   }
   #btn-copiar {
     margin-top: 14%;
@@ -596,7 +594,7 @@ body {
   }
 }
 
-@media screen and (max-width: 402px) {
+@media screen and (max-width: 405px) {
   .chLogo {
     width: 65px;
     height: 65px;
@@ -619,10 +617,11 @@ body {
     height: 45px;
   }
   .leftButtons {
-    margin-top: 85%;
+    margin-top: 88%;
+    margin-left: -7%;
   }
   .contentRight {
-    margin-top: 154%;
+    margin-top: 158%;
     height: 44%;
   }
   #btn-copiar {
@@ -631,9 +630,96 @@ body {
   }
 
   #btn-encriptar {
-    margin-left: 40px;
+    margin-left: 70px;
   }
   .autor {
-    margin-top: 22%;
+    margin-top: 238%;
   }
+}
+
+@media screen and (max-width: 368px) {
+  .nombre-page {
+    margin-top: -15.5%;
+  }
+  .aluraLogo {
+    margin-top: 5%;
+  }
+  .leftButtons {
+    width: 100%;
+    margin-top: 100%;   
+  }
+  .leftButtons p{
+    margin-left: 12%;
+  }
+  #btn-encriptar {
+    margin-left: 50px;
+  }
+  .contentRight {
+    margin-top: 174%;
+  }
+
+  .autor{
+    margin-top: 265%;
+  }
+  
+}
+
+@media screen and (max-width: 350px) {
+  .autor{
+    margin-top: 275%;
+  }
+  .contentRight{
+    margin-top: 180%;
+  }
+  .nombre-page{
+    margin-top: -17%;
+    margin-left: 21%;
+  }
+}
+
+@media screen and (max-width: 332px) {
+  .nombre-page {
+    margin-top: -17%;
+    font-size: 35px;
+    margin-left: 25%;
+  }
+  .leftButtons{
+    margin-top: 110%;
+  }
+  #btn-encriptar {
+    margin-left: 30px;
+  }
+  .contentRight{
+    margin-top: 195%;
+  }
+  .autor{
+    margin-top: 295%;
+  }
+  @media screen and (max-width: 311px) {
+    .aluraLogo {
+      margin-top: 6%;
+    }
+    .nombre-page{
+    margin-top: -18%;
+    }
+    #btn-encriptar {
+      margin-left: 20px;
+    }
+    .contentRight{
+      margin-top: 205%;
+  }
+  .autor{
+    margin-top: 312%;
+}
+}
+@media screen and (max-width: 311px) { 
+  #btn-encriptar {
+  margin-left: 15px;
+  }
+  .autor{
+    margin-left: 35px;
+    margin-top: 320%;
+    width: 70%;
+}
+}
 }
