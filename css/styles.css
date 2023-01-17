@@ -637,20 +637,3 @@ body {
     margin-top: 22%;
   }
 }
-
-@media screen and (max-width: 368px) {
-  .nombre-page {
-    margin-top: -15.5%;
-  }
-  .aluraLogo {
-    margin-top: 5%;
-  }
-  .leftButtons {
-    margin-top: 88%;
-    margin-left: -5%;
-  }
-  .contentRight {
-    margin-top: 160%;
-  }
-  
-}
